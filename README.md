@@ -1,4 +1,4 @@
 jCreditCard
 ===========
 
-Credir card validator plugin
+Credir number validator plugin
