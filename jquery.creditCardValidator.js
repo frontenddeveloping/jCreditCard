@@ -71,7 +71,7 @@
             return (sum % 10) === 0;
         },
         _checkLength = function (userValue, validLength) {
-            return $.inArray.call(userValue.length, validLength) > -1;
+            return $.inArray(userValue.length, validLength) > -1;
         },
         _getNormalValue = function (value) {
             return value.replace(/[^\d]+/g, '')
